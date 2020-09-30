@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EncryptMe</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Encrypt your message :)</h1>
+    </header>
+    <main>
+        <div class="encrypt-container">
+            <input class="encrypt-input" type="text" value='yr msg'>
+            <input class="encrypt-key-i hide" type="text" value='yr key'>
+            <h2 class="encrypt-key-h">yr key -> <span class='encrypt-key-itself'></span> </h2>
+            <div class="encrypt-decrypt">
+                <button class="encrypt-decrypt-item" type="submit">Encrypt</button>
+                <!-- Rectangular switch -->
+                <label class="switch encrypt-decrypt-item">
+                    <input class="checkbox" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <!-- <h2 class="encrypt-output-h2">yr output -><br><br><span class="encrypt-output"></span></h2> -->
+            <input class="encrypt-output" value="yr encrypted msg" type="text">
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
